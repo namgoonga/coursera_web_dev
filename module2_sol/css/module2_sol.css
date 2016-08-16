@@ -1,0 +1,35 @@
+* {
+	box-sizing: border-box;
+	/*
+		margin: 0px;
+		padding: 0px;
+	*/
+}
+
+p {
+	width: 33.3%;
+	border: 1px solid black;
+	float: left;
+	padding: 10px;
+	text-align: center;
+}
+
+h2 {
+		font-weight: bold;
+		text-align: center;
+}
+
+/* Desktop */
+@media (min-width: 992px) {
+
+}
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/* Mobile */
+@media (min-width: 767px) {
+
+}
