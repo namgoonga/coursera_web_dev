@@ -1,15 +1,23 @@
-body {
+body { /* Set specific properties of body */
 	color: #000000;
 	font-size: 16px;
 	background-color: #ffffff;
 	font-family: 'Jaldi', sans-serif;
 }
 
+.container-fluid { /* Add some extra stuff */
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+/* HEADER */
+
 #header-nav {
 	background-color: #9999ff;
 	border-radius: 0;
 	border: 0;
-	height: 85px;
 }
 
 .navbar-brand {
@@ -18,17 +26,49 @@ body {
 
 .navbar-brand h1 {
 	color: #000000;
-	font-size: 2em;
+	font-size: 1.5em;
 	text-transform: uppercase;
 	font-weight: bold;
 	margin-top: 0;
 	margin-bottom: 0;
-	line-height: 0.5;
+	line-height: 0.1;
 }
 
-/* HEADER */
+#collapsable-nav {
+  font-size: 1.2em;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+
+#nav-list #button-item {
+  text-align: center;
+  font-size: 1.3em;
+  background-color: #ffffff;
+  border: 1px solid black;
+}
 
 /* END HEADER */
 
 /* BODY */
+
+#main-header {
+	font-weight: bold;
+	margin-bottom: 25px;
+}
+
+.section {
+	background: #a3a3c2;
+	padding: 0px 10px 10px;
+	min-height: 1000px;
+	margin-bottom: 10px;
+}
+
+section h3 {
+	font-weight: bold;
+	padding-top: 10px;
+	font-size: 2em;
+}
+
 /* END BODY */
